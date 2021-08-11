@@ -1,5 +1,6 @@
 const { Router }= require('express');
 const Producto = require('../Classes/Producto');
+const { isAdmin } = require('../middleware/isAdmin');
 const router = Router();
 
 
@@ -14,19 +15,19 @@ router.get("/listar/:id",  (req, res) => {
     res.json({"producto": prod.buscarPorId( id )})
 })
 
-router.delete("/borrar/:id", (req, res) => {
+router.delete("/borrar/:id",  isAdmin ,(req, res) => {
     const { id } = req.params
     res.json({"eliminado": prod.eliminar(id)})
 })
 
 // TODO: aun falta como definir este campo 
-router.put("/actualizar/:id", (req, res) => {
+router.put("/actualizar/:id", isAdmin , (req, res) => {
     const { id } = req.params
     const { body } = req
     res.json({"producto": prod.editar( id , body )})
 })
 
-router.post("/guardar/",  (req, res) => {
+router.post("/guardar/", isAdmin ,(req, res) => {
     const { body } = req
     res.json({"producto": prod.guardar(body)})
 })
