@@ -1,0 +1,17 @@
+{
+    "id": 1,
+    "timestamp": null,
+    "producto": [
+        {
+            "id": 1,
+            "nombre": "Posion",
+            "precio": 1200,
+            "thumbnail": "https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Potion-512.png",
+            "timestamp": "",
+            "descripcion": "",
+            "codigo": "",
+            "stock": 1,
+            "id_producto": 5
+        }
+    ]
+}

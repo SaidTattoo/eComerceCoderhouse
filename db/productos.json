@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nombre": "Posion",
+        "precio": 1200,
+        "thumbnail": "https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Potion-512.png",
+        "timestamp": "",
+        "descripcion": "",
+        "codigo": "",
+        "stock": 1
+    },
+    {
+        "id": 2,
+        "nombre": "Posion",
+        "precio": 1200,
+        "thumbnail": "https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Potion-512.png",
+        "timestamp": "Tue Aug 10 2021",
+        "descripcion": "",
+        "codigo": "",
+        "stock": 1
+    },
+    {
+        "id": 3,
+        "nombre": "Posion",
+        "precio": 1200,
+        "thumbnail": "https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Potion-512.png",
+        "timestamp": "Tue Aug 10 2021",
+        "descripcion": "",
+        "codigo": "",
+        "stock": 1
+    }
+]
