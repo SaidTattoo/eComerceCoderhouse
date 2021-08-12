@@ -48,8 +48,9 @@ class Producto {
       }
     });
     let newArr = this.datos.filter((prod) => prod.id != id)
-    let newArrayNewProduct = newArr.push(arr)
-    newArr.push(newArrayNewProduct)
+     newArr.push(arr)
+   
+
     this.fs.writeFileSync(
       "./db/productos.json",
       JSON.stringify(newArr, null, 4)
