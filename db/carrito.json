@@ -3,15 +3,37 @@
     "timestamp": null,
     "producto": [
         {
-            "id": 1,
-            "nombre": "Posion",
+            "id": 4,
+            "nombre": "Dragon",
             "precio": 1200,
-            "thumbnail": "https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Potion-512.png",
-            "timestamp": "",
+            "thumbnail": "https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Monster-512.png",
+            "timestamp": "Tue Aug 10 2021",
             "descripcion": "",
-            "codigo": "",
+            "codigo": "CH-004",
             "stock": 1,
-            "id_producto": 5
+            "id_producto": 1
+        },
+        {
+            "id": 3,
+            "nombre": "Mapa",
+            "precio": 1200,
+            "thumbnail": "https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Adventure_Map-512.png",
+            "timestamp": "Tue Aug 10 2021",
+            "descripcion": "",
+            "codigo": "CH-003",
+            "stock": 1,
+            "id_producto": 2
+        },
+        {
+            "id": 3,
+            "nombre": "Mapa",
+            "precio": 1200,
+            "thumbnail": "https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Adventure_Map-512.png",
+            "timestamp": "Tue Aug 10 2021",
+            "descripcion": "",
+            "codigo": "CH-003",
+            "stock": 1,
+            "id_producto": 3
         }
     ]
 }
