@@ -31,13 +31,12 @@
     },
     {
         "id": "3",
-        "nombre": "Posion21",
+        "nombre": "Posion24",
         "precio": 1206660,
         "thumbnail": "https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Potion-512.png",
         "timestamp": "rew",
         "descripcion": "rwe",
         "codigo": "rwe",
         "stock": 1
-    },
-    4
+    }
 ]
