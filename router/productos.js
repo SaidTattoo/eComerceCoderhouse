@@ -20,7 +20,7 @@ router.delete("/borrar/:id",  isAdmin ,(req, res) => {
     res.json({"eliminado": prod.eliminar(id)})
 })
 
-// TODO: aun falta como definir este campo 
+
 router.put("/actualizar/:id", isAdmin , (req, res) => {
     const { id } = req.params
     const { body } = req

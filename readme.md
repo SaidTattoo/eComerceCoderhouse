@@ -1,4 +1,4 @@
-###Productos
+### Productos
 
 ```
 [GET] http://localhost:8080/api/productos/listar
@@ -9,12 +9,12 @@
 ```
 [PUT] http://localhost:8080/api/productos/actualizar/+ID
 {
-    "nombre": "Posion",
-    "precio": 1200,
+    "nombre": "Posion21",
+    "precio": 1206660,
     "thumbnail": "https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Potion-512.png",
-    "timestamp": "",
-    "descripcion": "",
-    "codigo": "",
+    "timestamp": "rew",
+    "descripcion": "rwe",
+    "codigo": "rwe",
     "stock": 1
 }
 
@@ -35,7 +35,7 @@
 ```
 
 
-###Carrito 
+### Carrito 
 
 ```
 [GET] http://localhost:8080/api/carrito/listar
