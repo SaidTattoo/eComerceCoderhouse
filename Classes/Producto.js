@@ -1,3 +1,5 @@
+const { Console } = require("console");
+
 class Producto {
   fs = require("fs");
   datos = JSON.parse(this.fs.readFileSync("./db/productos.json", "utf-8"));
@@ -29,24 +31,31 @@ class Producto {
     let eliminado = this.datos.find((producto) => producto.id == id);
     return eliminado ? eliminado : "No existe producto";
   }
-  // editar(id, producto) {
-  //   let editado = (productos[id - 1] = {
-  //     title: producto.title,
-  //     price: producto.price,
-  //     thumbnail: producto.thumbnail
-  //   });
-  //   return editado;
-  // }
+  editar(id, product) {
+    let arr
+    this.datos.map((producto) => {
+      if (producto.id == id) {
+        arr = {
+          "id": id,
+          "nombre": product.nombre,
+          "precio": product.precio,
+          "thumbnail": product.thumbnail,
+          "timestamp": product.timestamp,
+          "descripcion": product.descripcion,
+          "codigo": product.codigo,
+          "stock": product.stock
+        }
+      }
+    });
+    let newArr = this.datos.filter((prod) => prod.id != id)
+    let newArrayNewProduct = newArr.push(arr)
+    newArr.push(newArrayNewProduct)
+    this.fs.writeFileSync(
+      "./db/productos.json",
+      JSON.stringify(newArr, null, 4)
+    );
+    return newArr;
+  }
 }
 module.exports = Producto;
 
-// {
-//     "id": 1,
-//     "nombre": "Posion",
-//     "precio": 1200,
-//     "thumbnail": "https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Potion-512.png",
-//     "timestamp": "",
-//     "descripcion": "",
-//     "codigo": "",
-//     "stock": 1
-// }
