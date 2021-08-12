@@ -4,29 +4,39 @@
         "nombre": "Posion",
         "precio": 1200,
         "thumbnail": "https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Potion-512.png",
-        "timestamp": "",
-        "descripcion": "",
-        "codigo": "",
+        "timestamp": "Tue Aug 10 2021",
+        "descripcion": "La poción de daño (Potion of Harming en la versión original del juego) es una poción que más allá de hacer daño no tiene ningún efecto. Al acabar de beberse o al destruirse una arrojadiza contra un bloque sólido la criatura o jugador recibirá daño constantemente por pocos segundos, la duración depende del nivel de la poción, que como cualquier otra poción se aumenta con polvo de piedra luminosa y redstone.",
+        "codigo": "CH-001",
         "stock": 1
     },
     {
         "id": 2,
-        "nombre": "Posion",
+        "nombre": "Araña",
         "precio": 1200,
-        "thumbnail": "https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Potion-512.png",
+        "thumbnail": "https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Poison_Spider-256.png",
         "timestamp": "Tue Aug 10 2021",
         "descripcion": "",
-        "codigo": "",
+        "codigo": "CH-002",
         "stock": 1
     },
     {
         "id": 3,
-        "nombre": "Posion",
+        "nombre": "Mapa",
         "precio": 1200,
-        "thumbnail": "https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Potion-512.png",
+        "thumbnail": "https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Adventure_Map-512.png",
         "timestamp": "Tue Aug 10 2021",
         "descripcion": "",
-        "codigo": "",
+        "codigo": "CH-003",
+        "stock": 1
+    },
+    {
+        "id": 4,
+        "nombre": "Dragon",
+        "precio": 1200,
+        "thumbnail": "https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Monster-512.png",
+        "timestamp": "Tue Aug 10 2021",
+        "descripcion": "",
+        "codigo": "CH-004",
         "stock": 1
     }
 ]
